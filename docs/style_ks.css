@@ -275,6 +275,7 @@ a[class^="creative_line"] {
 /* 메인 슈가라인 */
 .main-sugar_candle-wrap {
   color: #fff;
+  position: relative;
 }
 
 .sugar_line-text-1 {
