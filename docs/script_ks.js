@@ -51,10 +51,10 @@ function fullpageActivete() {
 fullpageActivete();
 
 $(window).resize(function () {
-  if ($(this).width() < 1024 && isFullPageInitialized) {
+  if ($(this).width() < 1180 && isFullPageInitialized) {
     $.fn.fullpage.destroy("all");
     isFullPageInitialized = false;
-  } else if ($(this).width() >= 1024 && !isFullPageInitialized) {
+  } else if ($(this).width() >= 1180 && !isFullPageInitialized) {
     fullpageActivete();
   }
 });
